@@ -38,7 +38,12 @@ public class Atividade02_Q01 {
         
         customin = PCV(0, lista);
         
-        System.out.println("\nVALOR FINAL: "+customin);
+        if (customin==1000){
+            System.out.println("Não é Hamiltoniano!");
+        }
+        
+        else
+            System.out.println("\nVALOR FINAL: "+customin);
         
         long tempofinal = System.nanoTime();
         System.out.println(tempofinal - tempoinicial );
